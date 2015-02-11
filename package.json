@@ -41,7 +41,7 @@
   ],
   "dependencies": {
     "es6-promise": "^2.0.1",
-    "node-fontdump": "^0.2.1",
+    "node-fontdump": "~0.4",
     "winston": "^0.9.0"
   }
 }
