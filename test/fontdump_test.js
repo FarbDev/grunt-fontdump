@@ -1,6 +1,6 @@
 "use strict";
 
-var grunt = require("grunt");
+const grunt = require("grunt");
 
 /*
  ======== A Handy Little Nodeunit Reference ========
@@ -30,15 +30,15 @@ exports.fontdump = {
     default_options: function(test) {
         test.expect(2);
 
-        var actual = grunt.file.read("tmp/fonts/fonts.css");
-        var expected = grunt.file.read("test/expected/fonts.css");
-        var files_exist =
-            grunt.file.exists("tmp/fonts/sourcesans pro_400_italic.ttf") &&
-            grunt.file.exists("tmp/fonts/sourcesans pro_400_italic.woff") &&
-            grunt.file.exists("tmp/fonts/sourcesans pro_400_normal.eot") &&
-            grunt.file.exists("tmp/fonts/sourcesans pro_400_normal.svg") &&
-            grunt.file.exists("tmp/fonts/sourcesans pro_400_normal.ttf") &&
-            grunt.file.exists("tmp/fonts/sourcesans pro_400_normal.woff");
+        const actual = grunt.file.read("tmp/fonts/fonts.css");
+        const expected = grunt.file.read("test/expected/fonts.css");
+        const files_exist =
+            grunt.file.exists("tmp/fonts/sourcesans pro_400_italic_default.ttf") &&
+            grunt.file.exists("tmp/fonts/sourcesans pro_400_italic_default.woff") &&
+            grunt.file.exists("tmp/fonts/sourcesans pro_400_normal_default.eot") &&
+            grunt.file.exists("tmp/fonts/sourcesans pro_400_normal_default.svg") &&
+            grunt.file.exists("tmp/fonts/sourcesans pro_400_normal_default.ttf") &&
+            grunt.file.exists("tmp/fonts/sourcesans pro_400_normal_default.woff");
 
         test.equal(actual, expected, "css file has invalid content");
         test.ok(files_exist, "missing font files");

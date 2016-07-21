@@ -2,13 +2,61 @@
   font-family: 'Source Sans Pro';
   font-weight: 400;
   font-style: normal;
-  src: url('sourcesans pro_400_normal.eot');
-  src: url('sourcesans pro_400_normal.woff') format('woff'), url('sourcesans pro_400_normal.ttf') format('truetype'), url('sourcesans pro_400_normal.svg#SourceSansPro') format('svg'), url('sourcesans pro_400_normal.eot') format('embedded-opentype');
+  src: url('sourcesans pro_400_normal_19882c2c7f40473fb6ffcf2c9ae29c9d.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('sourcesans pro_400_normal_78f97281f840d609aa7d345caef392c5.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('sourcesans pro_400_normal_8b3c37db1223317f33c222c408f30702.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 400;
   font-style: italic;
-  src: url('sourcesans pro_400_italic.woff') format('woff'), url('sourcesans pro_400_italic.ttf') format('truetype');
+  src: url('sourcesans pro_400_italic_19882c2c7f40473fb6ffcf2c9ae29c9d.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: italic;
+  src: url('sourcesans pro_400_italic_78f97281f840d609aa7d345caef392c5.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: italic;
+  src: url('sourcesans pro_400_italic_8b3c37db1223317f33c222c408f30702.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('sourcesans pro_400_normal_default.eot');
+  src: url('sourcesans pro_400_normal_default.woff') format('woff'), url('sourcesans pro_400_normal_default.ttf') format('truetype'), url('sourcesans pro_400_normal_default.svg#SourceSansPro') format('svg'), url('sourcesans pro_400_normal_default.eot') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: italic;
+  src: url('sourcesans pro_400_italic_default.woff') format('woff'), url('sourcesans pro_400_italic_default.ttf') format('truetype');
 }
