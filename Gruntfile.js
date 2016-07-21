@@ -2,7 +2,7 @@
  * grunt-fontdump
  * https://github.com/FarbDev/grunt-fontdump
  *
- * Copyright (c) 2015 Konrad Mohrfeldt
+ * Copyright (c) 2016 Konrad Mohrfeldt
  * Licensed under the ISC license.
  */
 
