@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/FarbDev/grunt-fontdump/issues"
   },
-  "licenses": [
-    {
-      "type": "ISC",
-      "url": "https://github.com/FarbDev/grunt-fontdump/blob/master/LICENSE-ISC"
-    }
-  ],
+  "license": "ISC",
   "engines": {
     "node": ">= 0.8.0"
   },
