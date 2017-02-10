@@ -18,8 +18,8 @@
   font-family: 'Source Sans Pro';
   font-weight: 400;
   font-style: normal;
-  src: url('sourcesans pro_400_normal_8b3c37db1223317f33c222c408f30702.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  src: url('sourcesans pro_400_normal_bfa3a4d70cc392ea9c1260963baae6ed.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
 @font-face {
@@ -42,8 +42,8 @@
   font-family: 'Source Sans Pro';
   font-weight: 400;
   font-style: italic;
-  src: url('sourcesans pro_400_italic_8b3c37db1223317f33c222c408f30702.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  src: url('sourcesans pro_400_italic_bfa3a4d70cc392ea9c1260963baae6ed.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
 @font-face {
