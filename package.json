@@ -1,7 +1,7 @@
 {
   "name": "grunt-fontdump",
   "description": "grunt task for node-fontdump",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://github.com/FarbDev/grunt-fontdump",
   "author": {
     "name": "Konrad Mohrfeldt",
