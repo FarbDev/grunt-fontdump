@@ -77,7 +77,7 @@ module.exports = function(grunt) {
             }).then(function(dump) {
                 var families = Object.keys(dump.fonts.families).join(", ");
                 grunt.log.writeln(`File "${dest} created with ${families}.`);
-            }).catch((err) => {
+            }).catch(function(err) {
                 grunt.log.error(err);
             });
         })).then(done);
