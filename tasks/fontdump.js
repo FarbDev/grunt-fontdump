@@ -8,15 +8,15 @@
 
 "use strict";
 
-const util = require("util");
-const path = require("path");
+var util = require("util");
+var path = require("path");
 
 require("es6-promise").polyfill();
-const fontdump = require("node-fontdump");
-const winston = fontdump.logger;
+var fontdump = require("node-fontdump");
+var winston = fontdump.logger;
 
 function create_logger(grunt) {
-    const GruntLog = winston.transports.Grunt = function(options) {
+    var GruntLog = winston.transports.Grunt = function(options) {
         options = options || {};
         options.debug = options.debug || false;
 
@@ -47,25 +47,25 @@ function create_logger(grunt) {
 
 module.exports = function(grunt) {
     // configure logger
-    const GruntLog = create_logger(grunt);
+    var GruntLog = create_logger(grunt);
     winston.remove(winston.transports.Console);
     winston.add(GruntLog);
 
     // configure task
     grunt.registerMultiTask("fontdump", "grunt task for node-fontdump", function() {
-        const done = this.async();
+        var done = this.async();
 
         // Merge task-specific and/or target-specific options with these defaults.
-        const options = this.options({
+        var options = this.options({
             web_directory: ""
         });
 
         // Iterate over all specified file groups.
         Promise.all(this.files.map(function(f) {
-            const src = f.orig.src[0];
-            const dest = f.dest;
-            const target_directory = path.dirname(dest);
-            const css_file = path.basename(dest);
+            var src = f.orig.src[0];
+            var dest = f.dest;
+            var target_directory = path.dirname(dest);
+            var css_file = path.basename(dest);
 
             grunt.file.mkdir(target_directory);
 
@@ -75,7 +75,7 @@ module.exports = function(grunt) {
                 web_directory: options.web_directory,
                 css_file: css_file
             }).then(function(dump) {
-                const families = Object.keys(dump.fonts.families).join(", ");
+                var families = Object.keys(dump.fonts.families).join(", ");
                 grunt.log.writeln(`File "${dest} created with ${families}.`);
             }).catch((err) => {
                 grunt.log.error(err);
